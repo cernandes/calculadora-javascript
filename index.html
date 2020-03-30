@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="calcBody">
+            <span>Calculadora JS</span>
+            <form name="form">
+                <input class="display" name="display" maxlength="10" onfocus="focus">
+            </form>
+            <table>
+                <tr>
+                    <td><input class="btn" type="button" value="C" onclick="clean()"></td>
+                    <td><input class="btn" type="button" value="CE" onclick="back()"></td>
+                    <td><input class="btn" type="button" value="%" onclick="key('%')"></td>
+                    <td><input class="btn" type="button" value="/" onclick="key('/')"></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="7" onclick="key(7)"></td>
+                    <td><input class="btn" type="button" value="8" onclick="key(8)"></td>
+                    <td><input class="btn" type="button" value="9" onclick="key(9)"></td>
+                    <td><input class="btn" type="button" value="x" onclick="key('*')"></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="4" onclick="key(4)"></td>
+                    <td><input class="btn" type="button" value="5" onclick="key(5)"></td>
+                    <td><input class="btn" type="button" value="6" onclick="key(6)"></td>
+                    <td><input class="btn" type="button" value="-" onclick="key('-')"></td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="1" onclick="key(1)"></td>
+                    <td><input class="btn" type="button" value="2" onclick="key(2)"></td>
+                    <td><input class="btn" type="button" value="3" onclick="key(3)"></td>
+                    <td rowspan="2"><input class="btn btn-large" type="button" value="+" onclick="key('+')">
+                    </td>
+                </tr>
+                <tr>
+                    <td><input class="btn" type="button" value="0" onclick="key(0)"></td>
+                    <td><input class="btn" type="button" value="." onclick="key('.')"></td>
+                    <td><input class="btn" type="button" value="=" onclick="equal('=')"></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+    <script src="js/calc.js"></script>
+</body>
+
+</html>
