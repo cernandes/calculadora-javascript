@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Teko&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Teko&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -17,11 +17,15 @@
   background-color: #607d8b;
 }
 .display {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
   width: 90%;
   height: 60px;
-  margin: 5px; 
-  font-family: 'Teko', sans-serif;
-  font-size: 4.5em;   
+  margin: 5px;
+  padding-top: 5px; 
+  font-family: "Teko", sans-serif;
+  font-size: 4.5em;
   color: #687a83;
   border-radius: 5px;
   box-shadow: -2px -2px 3px #000;
