@@ -1,10 +1,11 @@
 # Calculadora JS
 
-Calculadora simples desenvolvida com HTML e CSS, o projeto visa a elaboração da interface para posterior desenvolvimento da lógica de controle e implementação das funcionalidades através da linguagem javascript.
+Calculadora simples com funções básicas desenvolvida com HTML5, CSS3 e Javascript. O projeto visa o estudo das tecnologias e a lógica de programação. Ao longo do tempo o projeto sofrerá modificações para correção de falhas, melhorias na implementação do código através de boas práticas de programação e implementação de funcionalidades que possam agregar ao aprendizado.
+
+### Design do projeto
 
 # ![](/img/calculadora.png)
 
-Publicado no GitHub Pages https://cernandes.github.io/calculator-js/
 
 ## Diário de bordo
 
