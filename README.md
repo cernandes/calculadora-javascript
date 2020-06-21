@@ -1,6 +1,7 @@
 # Calculadora JS
 
 Calculadora simples com funções básicas desenvolvida com HTML5, CSS3 e Javascript. O projeto visa o estudo das tecnologias e a lógica de programação. Ao longo do tempo o projeto sofrerá modificações para correção de falhas, melhorias na implementação do código através de boas práticas de programação e implementação de funcionalidades que possam agregar ao aprendizado.
+Projeto baseado no exercício do [curso completo de JavaScript](https://www.udemy.com/course/javascript-curso-completo/) na Udemy, curso ministrado pela [Hcode Treinamentos.](https://www.hcode.com.br)
 
 ### Design do projeto
 
